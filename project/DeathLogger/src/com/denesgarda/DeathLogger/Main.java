@@ -15,6 +15,6 @@ public class Main extends JavaPlugin implements Listener {
 
     @EventHandler
     public void logger(PlayerDeathEvent event) {
-        event.getEntity().sendMessage(ChatColor.RED + "DEATH LOCATION: " + event.getEntity().getLocation().getX() + event.getEntity().getLocation().getY() + event.getEntity().getLocation().getZ());
+        event.getEntity().sendMessage(ChatColor.RED + "DEATH LOCATION: " + (int) event.getEntity().getLocation().getX() + " " + (int) event.getEntity().getLocation().getY() + " " + (int) event.getEntity().getLocation().getZ());
     }
 }
