@@ -1,0 +1,4 @@
+name: DeathLogger
+main: com.denesgarda.DeathLogger.Main
+version: 1.0
+description: A Minecraft plugin that tell you your coordinated when you die

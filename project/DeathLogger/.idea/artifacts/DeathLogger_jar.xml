@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="DeathLogger:jar">
+    <output-path>$PROJECT_DIR$/../../builds</output-path>
+    <root id="archive" name="DeathLogger.jar">
+      <element id="module-output" name="DeathLogger" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/dependencies/spigot-1.17.1.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
